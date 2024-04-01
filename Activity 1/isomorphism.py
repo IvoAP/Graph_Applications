@@ -89,9 +89,6 @@ def main():
    
     # CHeck the flags
     flag_number_vertices = check_number_of_vertices_of_graphs(number_vertices1,number_vertices2)
-    # flag_check_bijection = check_bijection(adjacency_matrix1,adjacency_matrix2,number_vertices1,number_vertices2)
-
-    # The answer for each case
     if(flag_number_vertices == False):
         print("They are not isomorphic because they have a different number of vertices.")
         return
